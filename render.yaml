@@ -1,0 +1,11 @@
+# نشر مجاني على Render — الخطة المجانية تنام بعد الخمول
+# Build Command: npm install
+# Start Command: npm start
+# Environment Variables توضع في لوحة Render فقط، وليس في الكود.
+services:
+  - type: web
+    name: jalal-agent
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
